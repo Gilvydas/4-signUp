@@ -8,10 +8,26 @@ main {display: inline-block;
     margin-top: 100px;
 
 }
-div {display: inline-block;
+div:nth-of-type(1) {display: inline-block;
 width: 40%;
 background-color: aqua;
 float: left;
+padding: 40px;
+}
+
+h1 {display: inline-block;
+    width: 100%;
+
+}
+footer {display: inline-block;
+    width: 100%;
+
+}
+a {display: inline-block;
+
+}
+span {display: inline-block;
+
 }
 div:nth-of-type(2) {display: inline-block;
     width: 60%;
@@ -19,4 +35,3 @@ div:nth-of-type(2) {display: inline-block;
     float: left;
 
 }
-
