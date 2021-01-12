@@ -14,20 +14,24 @@ width: 40%;
 background-color: #2B92DE;
 float: left;
 padding: 40px;
+
 }
 
 .main-title {display: inline-block;
     width: 100%;
+    color: white;
 
 }
 .bottom-links {display: inline-block;
     width: 100%;
 
 }
-.bottom-links > a {display: inline-block;
+.bottom-links > .link {display: inline-block;
+    color: white;
 
 }
 .symbol {display: inline-block;
+    color: white;
 
 }
 .right-column {display: inline-block;
@@ -54,23 +58,49 @@ padding: 40px;
 }
 label {display: inline-block;
     width: 100%;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
 
 }
 input {display: inline-block;
     width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    line-height: 30px;
 
 }
-.btn {
-background-color: blue;
-color: white;
-padding: 10px 50px;
+.btn {display: inline-block;
+    background-color: #045bdf ;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
     border-radius: 20px;
-}
-.text {
+    line-height: 20px;
+    border: none;
+    text-transform: capitalize;
 
 }
-.form-row > .link {
-float: right;
+.btn:hover {
+    background-color: aqua;
+}
+.text {display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    padding-right: 0;
+    
+
+}
+.form-row > .link {display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    color: #045bdf ;
+    text-decoration: none;
+    
+
 }
 
 
